@@ -1,0 +1,141 @@
+ul{
+    list-style:none;
+    text-decoration:none;
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+body{
+    background:#E1CFCF;
+    margin:0;
+    padding:0;
+    padding-bottom:40px;
+    text-align:center;
+    color:#47B886;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=HEADER=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+header{
+    color: black;
+    height:300px;
+}
+
+section{
+    padding-top:40px;
+    height:100%;
+    width:100%;
+    background-size:cover;
+    background-image: url("imagens/foto-destaque-.webp")
+}
+
+section > h1{
+    font-size: 3em;
+}
+
+main{
+    padding-top:40px;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MENU MENU=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.menu{
+    height:50px;
+    display:flex;
+    justify-content:space-around;
+    text-align:center;
+    background:#d86bd8;
+}
+
+.botaoMenu{
+    border:0;
+    font-size:1.6em;
+    height:100%;
+    width:90px;
+    background:#d86bd8;
+}
+.botaoMenu:hover{
+    cursor:pointer;
+    background:#ceb0b054;
+    color:white;
+    transition: 0.5s;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MENU PESQUISAR=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+.botaoPesquisa{
+    border:0;
+    font-size:1.6em;
+    height:100%;
+    width:90px;
+    background:#d86bd8;
+}
+.botaoPesquisa:hover{
+    cursor:pointer;
+    background:#ceb0b054;
+    color:white;
+    transition: 0.5s;
+}
+
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MAIN=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.main{
+    padding:10px;
+    margin:auto;
+    width:75%;
+    background:white;
+}
+
+.titulo1{
+    font-size: 4em;
+    margin-top:0;
+}
+
+.imagemMateria{
+    width:100%;
+    height:300px;
+}
+
+.noticiaPrincipal{
+    text-align:left;
+}
+
+.tituloMateriaP{
+    color:#47B886;
+}
+.tituloMateriaP:hover{
+    color:black;
+    transition: 0.3s;
+}
+
+main .main .noticiaPrincipal div{
+    width:70%;
+}
+/*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MATERIA MENOR=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
+
+.materiaMenor{
+    display:flex;
+    text-align:left;
+    width:100%;
+    border-bottom:1px solid black;
+}
+
+.materiaMenor > div{
+    background:#D0B5B5;
+    padding:5px;
+    height:200px;
+    width:50%;
+    margin:0;
+}
+
+.materiaMenor > div > a > img {
+    height:100%;
+    width:100%;
+}
+
+.materiaMenor > div > a {
+    color:#47B886;
+}
