@@ -27,6 +27,8 @@ header{
 }
 
 section{
+    font-family:'Times New Roman', Times, serif;
+    font-size:1.5em;
     padding-top:40px;
     height:100%;
     width:100%;
@@ -90,17 +92,20 @@ main{
 }
 
 .titulo1{
+    font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
-    margin-top:0;
+    margin-top:25px;
 }
 
 .imagemMateria{
     width:100%;
-    height:300px;
+    height:100%;
 }
 
 .noticiaPrincipal{
     text-align:left;
+    margin-bottom:100px;
+    padding:20px;
 }
 
 .tituloMateriaP{
@@ -111,20 +116,39 @@ main{
     transition: 0.3s;
 }
 
-main .main .noticiaPrincipal div{
+.divMP1{
     width:70%;
 }
+
+.divMP2{
+    width:100%;
+    height:300px;
+    padding:0;
+    text-align:center;
+    background-image: url('imagens/foto-destaque-2-1.webp');
+    background-size:cover;
+    background-position:center;
+}
+
+.divMP2:hover{
+    background-size:110%;
+    transition:0.5s;
+}
+
+.noticiaPrincipal > p {
+    color:black;
+}
+
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MATERIA MENOR=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 
 .materiaMenor{
     display:flex;
     text-align:left;
     width:100%;
-    border-bottom:1px solid black;
 }
 
-.materiaMenor > div{
-    background:#D0B5B5;
+.materiaMenor > div {
+    background:#fff;
     padding:5px;
     height:200px;
     width:50%;
@@ -138,4 +162,14 @@ main .main .noticiaPrincipal div{
 
 .materiaMenor > div > a {
     color:#47B886;
+    font-size:1.2em;
+}
+
+.materiaMenor > div > a:hover {
+    font-size:1.3em;
+    transition:0.2s;
+}
+
+.materiaMenor > div > p{
+    color:black;
 }
