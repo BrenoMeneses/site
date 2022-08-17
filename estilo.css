@@ -66,6 +66,16 @@ main{
     transition: 0.5s;
 }
 
+.menulinks{
+    background: red;
+    width:200px;
+    height:150px;
+}
+
+.menulinks > ul {
+    
+}
+
 /*=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=MENU PESQUISAR=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=*/
 .botaoPesquisa{
     border:0;
@@ -93,7 +103,7 @@ main{
 .titulo1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
-    margin-top:25px;
+    margin-top:70px;
 }
 
 .imagemMateria{
